@@ -36,12 +36,10 @@ pip3 install jupyter
 
 >:warning: Do NOT use an admin user to register your application!
 
->:warning: Make sure to log a ticket to raise the API rate
-
 More information can be found in Anthology´s [developer 
 documentation page](https://docs.anthology.com/rest-apis/learn/getting-started/registry)
 
-4. Within root, create a folder called "credentials" inside of that folder, create a file named "learn.config.json" and fill it with the following template with the KEY and SECRET values.
+4. Within root, create a folder called "credentials" inside of that folder, create a file named "learn_config.json" and fill it with the following template with the KEY and SECRET values. For convenience, such folder and template files are created in this template repository.
 ```json
 {
     "url":"Learn Server url",
